@@ -28,6 +28,7 @@ Una tabla hash es una estructura de datos que se utiliza para almacenar informac
 
 
 ---
+##  Funcionamiento
 ---
 
 ## Estructura del Repositorio
