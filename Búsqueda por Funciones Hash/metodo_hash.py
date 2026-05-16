@@ -1,5 +1,5 @@
 '''Estructura de datos, Ingeniería en sistemas computacionales 
-Métodos de búsqueda: Tablas Hash
+Métodos de búsqueda: Funciones Hash
 Integrantes:
 Balam Castillo Pedro
 Pech Cantun Diego
