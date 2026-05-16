@@ -1,6 +1,5 @@
 # Búsqueda por Funciones Hash
 ---
----
 ## Integrantes
 
 - **Balam Castillo Pedro**
