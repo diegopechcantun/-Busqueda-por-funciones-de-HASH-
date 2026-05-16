@@ -1,6 +1,5 @@
 # Búsqueda por Funciones Hash
 ---
-Sistema de búsqueda de números mediante una Tabla Hash en Python, diseñado para almacenar y localizar datos de forma rápida y eficiente.
 ---
 ## Integrantes
 
