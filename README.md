@@ -113,26 +113,21 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ## Comparativa Teórica: Shell Sort vs Quick Sort
 
 
-| Característica        | Shell Sort  | Quick Sort     |
-|-----------------------|-------------|----------------|
-| Complejidad promedio  |  O(n log n) | O(n log n)     |
-| Peor caso             | O(n^2)      | O(n^2)         |
-| Rendimiento real      | Bueno       | Muy alto       |
-| Localidad de cache    | Alta        | Alta           |
-| Sensibilidad          | Baja        | Alta (pivote)  |
+| Característica       |         Hash        |     Búsqueda Binaria  |
+|----------------------|---------------------|-----------------------|
+| Complejidad Promedio | O(1)                | O(log n)              |
+| Complejidad Promedio | O(n)                | O(log n)              |
+| Requiere Orden       | No                  | Sí                    |
+| Espacio Extra        | O(n)                | O(1)                  |
+| Mejor Para           | Búsquedas frecuentes| Datos ordenados, rango|
 
 
 **Análisis**
 
-Quick Sort es generalmente el algoritmo más rápido en la práctica debido a su complejidad promedio O(n log n). Sin embargo, su rendimiento depende de una buena elección del pivote.
+*`Búsqueda Secuencial:` Examina cada elemento uno por uno desde el inicio hasta encontrar el objetivo o agotar la colección. Requiere múltiples comparaciones y accesos secuenciales.
 
-Shell Sort:
-
-- No depende de decisiones dinámicas (como pivote)
-
-- Es más predecible en ejecución
-
-- Menos propenso a degradarse por casos específicos
+*`Búsqueda Hash:` 
+Obtiene el índice directamente mediante función hash. Un acceso de O(1) en promedio, sin necesidad de comparaciones múltiples.
 
 
 ---
