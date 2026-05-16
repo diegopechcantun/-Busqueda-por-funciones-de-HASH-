@@ -59,7 +59,7 @@ El rendimiento de la búsqueda en una tabla hash depende principalmente de la fu
 | Caso | Complejidad | Descripción |
 |------|-------------|-------------|
 | **Mejor caso** | **O(1)** |  El tiempo de búsqueda es constante, independientemente del tamaño de los datos. |
-| **Caso promedio** | ** O(1)** |Con una buena función hash, los datos se distribuyen correctamente y las colisiones son mínimas |
+| **Caso promedio** | **O(1)** |Con una buena función hash, los datos se distribuyen correctamente y las colisiones son mínimas |
 | **Peor caso** | **O(n)** |Ocurre cuando todos los elementos generan el mismo hash (mala función hash o muchas colisiones).|
 
 ### Complejidad del espacio
