@@ -102,10 +102,9 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 #### **Análisis**
 
 
-Bubble Sort compara elementos adyacentes repetidamente, lo que genera una gran cantidad de operaciones redundantes.
+* `Búsqueda Binaria:` Divide el espacio de búsqueda por la mitad repetidamente, comparando el elemento objetivo con el punto medio. Requiere que los datos estén previamente ordenados.
 
-Shell Sort mejora esto al comparar elementos distantes, reduciendo drásticamente la cantidad de iteraciones necesarias.
-
+* ` Búsqueda Hash:`  Calcula un índice mediante una función hash, permitiendo acceso directo a los datos. Realiza un acceso aleatorio al almacenamiento mediante transformación de clave.
   
 
 ---
