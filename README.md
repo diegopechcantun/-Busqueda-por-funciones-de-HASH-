@@ -30,10 +30,10 @@ Una tabla hash es una estructura de datos que se utiliza para almacenar informac
 ---
 ##  Funcionamiento
 * `Lee números desde datos.txt`
-*  `Ordena todos los números en forma ascendente usando el método sort()`
+*  `Ordena todos los números en forma ascendente.`
 *  `Escribe los números ordenados en un archivo nuevo llamado datos_ordenados.txt`
-*  `Crea una tabla hash de 100,003 cubetas. Cada número se almacena con su índice original usando la función: posición = número % 100003`
-* `El usuario ingresa un número o ingresa varios  números y el programa lo busca en la tabla hash, retornando todas las posiciones donde aparece`
+*  `Crea una tabla hash de 100,003 cubetas. Cada número se almacena con su índice original usando la función: posición = número % 100003.`
+* `El usuario ingresa un número o ingresa varios  números y el programa lo busca en la tabla hash, retornando todas las posiciones donde aparece.`
 ---
 
 ## Estructura del Repositorio
