@@ -122,9 +122,9 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 
 **Análisis**
 
-*`Búsqueda Secuencial:` Examina cada elemento uno por uno desde el inicio hasta encontrar el objetivo o agotar la colección. Requiere múltiples comparaciones y accesos secuenciales.
+* `Búsqueda Secuencial:` Examina cada elemento uno por uno desde el inicio hasta encontrar el objetivo o agotar la colección. Requiere múltiples comparaciones y accesos secuenciales.
 
-*`Búsqueda Hash:` 
+* `Búsqueda Hash:` 
 Obtiene el índice directamente mediante función hash. Un acceso de O(1) en promedio, sin necesidad de comparaciones múltiples.
 
 
