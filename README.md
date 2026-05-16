@@ -1,7 +1,7 @@
-# -Busqueda-por-funciones-de-HASH-
+# Búsqueda por Funciones Hash
 ---
 Sistema de búsqueda de números mediante una Tabla Hash en Python, diseñado para almacenar y localizar datos de forma rápida y eficiente.
-
+---
 ## Integrantes
 
 - **Balam Castillo Pedro**
@@ -17,19 +17,16 @@ Sistema de búsqueda de números mediante una Tabla Hash en Python, diseñado pa
 ---
 
 ## Descripción  
-Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un archivo de texto con 50,000 números enteros y los ordena de forma ascendente o descendente, midiendo el tiempo de ejecución en segundos y milisegundo
-
+El proyecto consiste en implementar en Python un sistema que lea un archivo de texto con 50,000 números, los ordene y permita realizar búsquedas de números utilizando el método de búsqueda Hash, además de medir el tiempo que tarda cada proceso.
 
 ---
 
 
 ## ¿Qué es?
 
-El método de ordenamiento Shell Sort, propuesto por Donald Shell en 1959, es una variante del método de inserción directa (Insertion Sort). El algoritmo consiste en comparar y ordenar elementos que se encuentran separados por una cierta distancia llamada "gap". 
+La búsqueda hash es un algoritmo de búsqueda que utiliza una función hash para mapear claves a posiciones en una tabla hash. Esta técnica permite un acceso rápido y directo a los elementos almacenados, basándose en sus claves únicas.
 
-En lugar de trabajar con elementos consecutivos como en el ordenamiento por inserción directa, Shell Sort comienza comparando elementos lejanos entre sí, lo que permite mover valores grandes o pequeños más rápidamente hacia su posición correcta.
-
-Este proceso se repite reduciendo progresivamente el valor del gap, hasta que finalmente se realiza un ordenamiento con gap igual a 1, equivalente al método de inserción directa, pero sobre un arreglo parcialmente ordenado, lo que mejora su eficiencia.
+Una tabla hash es una estructura de datos que se utiliza para almacenar información en forma de pares clave–valor. Su funcionamiento se basa en una función hash, la cual toma una clave y la transforma en un índice dentro de un arreglo. En esa posición se guarda el valor correspondiente.
 
 
 ---
@@ -38,19 +35,19 @@ Este proceso se repite reduciendo progresivamente el valor del gap, hasta que fi
 ## Estructura del Repositorio
 
 ```
-shell-sort-proyecto/
+`Búsqueda por Funciones Hash`
 │
-├── shell.py
-├── datos.txt
-├── resultado.txt
-└── README.md
+├── `metodo_hash.py`
+├── `datos.txt`
+├── `datos_ordenados.txt`
+└── `README.md`
 ```
 ---
 ## Video explicativo del codigo
 
 ### Video subido a YouTube 
 
-[![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Explicación-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
+[![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Explicación-red?style=for-the-badge&logo=youtube)](https://youtu.be/aucYYLKTMn8)
 
 ---
 ## Análisis de Complejidad
