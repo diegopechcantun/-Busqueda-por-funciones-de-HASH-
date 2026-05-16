@@ -34,14 +34,15 @@ Una tabla hash es una estructura de datos que se utiliza para almacenar informac
 
 ## Estructura del Repositorio
 
-```
+```text
 * `Búsqueda por Funciones Hash`
-│
-├── * `metodo_hash.py`
-├── * `datos.txt`
-├── * `datos_ordenados.txt`
-└── * `README.md`
+|
+|__ * `metodo_hash.py`
+|__ * `datos.txt`
+|__ * `datos_ordenados.txt`
+|__ * `README.md`
 ```
+
 ---
 ## Video explicativo del codigo
 
