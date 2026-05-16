@@ -206,7 +206,6 @@ def main():
                 except ValueError:
                     print("Error: Debes ingresar un número entero.")
 
-            # BUSCAR TODOS LOS NÚMEROS
             for numero_buscar in numeros_buscar:
 
                 inicio_busqueda = time.perf_counter()
@@ -233,7 +232,7 @@ def main():
 
                 print(f"Tiempo de búsqueda: "f"{tiempo_busqueda_ms:.2f} ms")
 
-        # SALIR DEL PROGRAMA
+        # Salir del programa.
         elif opcion == "3":
             print("\nSaliendo del programa.")
             break
