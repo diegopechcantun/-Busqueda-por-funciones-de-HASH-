@@ -133,10 +133,10 @@ def main():
 
         print("\n")
         print("-" * 30)
-        print("MENÚ")
         print("1. Buscar un número")
         print("2. Buscar múltiples números")
         print("3. Salir")
+        print("-" * 30)
 
         opcion = input("\nSelecciona una opción: ")
 
@@ -162,7 +162,7 @@ def main():
                 if len(posiciones) > 0:
 
                     print("Estado: Número encontrado.")
-                    print("Primera posición (cubeta):",posiciones[0] + 1)
+                    print("Posición:",posiciones[0] + 1)
 
                 else:
 
@@ -223,7 +223,7 @@ def main():
                 if len(posiciones) > 0:
 
                     print("Estado: Número encontrado.")
-                    print("Primera posición (cubeta):",posiciones[0] + 1)
+                    print("Posición:",posiciones[0] + 1)
 
                 else:
 
