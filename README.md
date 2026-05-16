@@ -52,22 +52,21 @@ Búsqueda por Funciones Hash
 ---
 ## Análisis de Complejidad
 
-El rendimiento del algoritmo Shell Sort depende principalmente de la secuencia de incrementos (gap) utilizada. En esta implementación, el gap se reduce dividiendo el tamaño del arreglo entre 2 en cada iteración.
+El rendimiento de la búsqueda en una tabla hash depende principalmente de la función hash utilizada y de la cantidad de colisiones que se generen. En esta implementación, la clave se transforma para obtener un índice directo dentro de la tabla. 
 
 ### Complejidad Temporal
 
 | Caso | Complejidad | Descripción |
 |------|-------------|-------------|
-| **Mejor caso** | **O(n log n)** |  Ocurre cuando el arreglo ya está ordenado o casi ordenado. |
-| **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos. |
-| **Peor caso** | **O(n²)** |Se presenta cuando los datos están en el orden más desfavorable. |
+| **Mejor caso** | **O(1)** |  El tiempo de búsqueda es constante, independientemente del tamaño de los datos. |
+| **Caso promedio** | ** O(1)** |Con una buena función hash, los datos se distribuyen correctamente y las colisiones son mínimas |
+| **Peor caso** | **O(n)** |Ocurre cuando todos los elementos generan el mismo hash (mala función hash o muchas colisiones).|
 
 ### Complejidad del espacio
 
-Shell Sort es un algoritmo de ordenamiento in-place, lo que significa que no requiere memoria auxiliar adicional para realizar el ordenamiento.
+La complejidad espacial de una tabla hash es de O(n), donde n es la cantidad de elementos almacenados. 
 
-Por esta razón, su complejidad espacial es de O(1), ya que el algoritmo opera directamente sobre el arreglo original utilizando una cantidad constante de memoria.
-
+Esto se debe a que cada elemento necesita espacio en la estructura principal y, en caso de colisiones, también puede ocupar espacio adicional en las listas internas. Sin embargo, este crecimiento es lineal y controlado, ya que cada elemento se almacena una sola vez dentro de la estructura.
 
 
 ---
