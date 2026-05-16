@@ -91,14 +91,13 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ## Comparativa Teórica: Hash vs Búsqueda Binaria
 
 
-| Característica       |         Hash        |  Búsqueda Secuencial  |
+| Característica       |         Hash        |     Búsqueda Binaria  |
 |----------------------|---------------------|-----------------------|
-| Complejidad Promedio |                     |                       |
-| Complejidad Promedio |                     |                       |
-| Requiere Orden       |                     |                       |
-| Espacio Extra        |                     |                       |
-| Mejor Para           |                     |                       |
-
+| Complejidad Promedio | O(1)                | O(log n)              |
+| Complejidad Promedio | O(n)                | O(log n)              |
+| Requiere Orden       | No                  | Sí                    |
+| Espacio Extra        | O(n)                | O(1)                  |
+| Mejor Para           | Búsquedas frecuentes| Datos ordenados, rango|
 #### **Análisis**
 
 
@@ -110,16 +109,16 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ---
 
 
-## Comparativa Teórica: Shell Sort vs Quick Sort
+## Comparativa Teórica: Búsqueda Hash vs Búsqueda Secuencial
 
 
-| Característica       |         Hash        |     Búsqueda Binaria  |
+| Característica       |         Hash        |  Búsqueda Secuencial  |
 |----------------------|---------------------|-----------------------|
-| Complejidad Promedio | O(1)                | O(log n)              |
-| Complejidad Promedio | O(n)                | O(log n)              |
-| Requiere Orden       | No                  | Sí                    |
-| Espacio Extra        | O(n)                | O(1)                  |
-| Mejor Para           | Búsquedas frecuentes| Datos ordenados, rango|
+| Complejidad Promedio |                     |                       |
+| Complejidad Promedio |                     |                       |
+| Requiere Orden       |                     |                       |
+| Espacio Extra        |                     |                       |
+| Mejor Para           |                     |                       |
 
 
 **Análisis**
