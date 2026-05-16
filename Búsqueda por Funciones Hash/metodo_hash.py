@@ -21,7 +21,6 @@ class TablaHash:
         return numero % self.tamaño
 
     # Guarda el número y su posición original dentro de la tabla hash.
-
     def insertar(self, numero, indice):
         clave = self.funcion_hash(numero)
         self.tabla[clave].append([numero, indice])
