@@ -79,7 +79,7 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 - La búsqueda hash permite un acceso rápido a los datos almacenados en caché.
 - Las funciones hash se utilizan en la generación de huellas digitales y firmas digitales.
 
-### Cuándo usar HASH
+### Cuándo no usar HASH
 
 - Datos que requieren orden específico.
 - Memoria muy limitada.
@@ -88,7 +88,7 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ---
 
 
-## Comparativa Teórica: Hash vs Búsqueda Binaria
+## Comparativa Teórica: Búsqueda Hash vs Búsqueda Binaria
 
 
 | Característica       |         Hash        |     Búsqueda Binaria  |
