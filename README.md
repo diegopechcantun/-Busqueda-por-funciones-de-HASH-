@@ -114,11 +114,11 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 
 | Característica       |         Hash        |  Búsqueda Secuencial  |
 |----------------------|---------------------|-----------------------|
-| Complejidad Promedio |                     |                       |
-| Complejidad Promedio |                     |                       |
-| Requiere Orden       |                     |                       |
-| Espacio Extra        |                     |                       |
-| Mejor Para           |                     |                       |
+| Complejidad Promedio | O(1)                |   O(n)                |
+| Complejidad Peor caso| O(n)                |   O(n)                |
+| Requiere Orden       | No                  |   No                  |
+| Espacio Extra        | O(n)                |   O(1)                |
+| Mejor Para           | Búsquedas frecuentes|  Datos sin ordenar    |
 
 
 **Análisis**
