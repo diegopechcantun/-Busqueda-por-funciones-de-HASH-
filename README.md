@@ -75,29 +75,29 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ### Cuándo usar HASH
 
 - Cuando se requiere un acceso rápido a los elementos basado en claves únicas. 
-- Tablas de símbolos: En compiladores y intérpretes, la búsqueda hash se emplea para buscar rápidamente identificadores y variables.
+- En compiladores y intérpretes, la búsqueda hash se emplea para buscar rápidamente identificadores y variables.
 - La búsqueda hash permite un acceso rápido a los datos almacenados en caché.
 - Las funciones hash se utilizan en la generación de huellas digitales y firmas digitales.
 
 ### Cuándo usar HASH
 
-- Se manejan grandes volúmenes de datos (como mas de 50,000 datos).
-- Se requiere máxima eficiencia garantizada.
-- Cuando se necesita un rendimiento predecible y consistente, ya que su eficiencia depende de la      secuencia de incrementos (gaps).
-- Se necesita un algoritmo estable.
+- Datos que requieren orden específico.
+- Memoria muy limitada.
+- Se necesita acceso ordenado por clave mínima o máxima.
+- Cuando necesitas operaciones de rango o secuenciales.
 ---
 
 
-## Comparativa Teórica: Shell Sort vs Bubble Sort
+## Comparativa Teórica: Hash vs Búsqueda Binaria
 
 
-| Característica      |   Shell Sort      |   Bubble Sort     |
-|---------------------|-------------------|-------------------|
-| Complejidad         | O(n²)             | O(n²)             |
-| Comparaciones       | Reducidas         | Muy altas         |
-| Intercambios        | Eficientes        | Ineficientes      |
-| Uso real            | Práctico          | Educativo         |
-
+| Característica       |         Hash        |     Búsqueda Binaria  |
+|----------------------|---------------------|-----------------------|
+| Complejidad Promedio | O(1)                | O(log n)              |
+| Complejidad Promedio | O(n)                | O(log n)              |
+| Requiere Orden       | No                  | Sí                    |
+| Espacio Extra        | O(n)                | O(1)                  |
+| Mejor Para           | Búsquedas frecuentes| Datos ordenados, rango|
 
 #### **Análisis**
 
