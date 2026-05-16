@@ -72,14 +72,14 @@ Esto se debe a que cada elemento necesita espacio en la estructura principal y, 
 ---
 ## Casos de Uso
 
-### Cuándo usar Shell Sort
+### Cuándo usar HASH
 
-- Cuando se trabaja con arreglos medianos (no tan grandes como para usar algoritmos más complejos).
-- Cuando los datos están parcialmente ordenados.
-- Cuando se necesita un algoritmo simple de implementar pero más eficiente que métodos básicos como Bubble Sort.
-- Cuando se requiere bajo uso de memoria (ya que no usa memoria extra).
+- Cuando se requiere un acceso rápido a los elementos basado en claves únicas. 
+- Tablas de símbolos: En compiladores y intérpretes, la búsqueda hash se emplea para buscar rápidamente identificadores y variables.
+- La búsqueda hash permite un acceso rápido a los datos almacenados en caché.
+- Las funciones hash se utilizan en la generación de huellas digitales y firmas digitales.
 
-### Cuándo NO usar Shell Sort
+### Cuándo usar HASH
 
 - Se manejan grandes volúmenes de datos (como mas de 50,000 datos).
 - Se requiere máxima eficiencia garantizada.
